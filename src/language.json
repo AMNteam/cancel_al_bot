@@ -1,0 +1,101 @@
+[
+  {
+    "name": "english",
+    "index": 0,
+    "profile": [
+      {"name": "Patient Name", "value": "patient_name"},
+      {"name": "UID/Abha Id", "value": "abha_id"},
+      {"name": "Name of Doctor", "value": "doctor_name"},
+      {"name": "Name of Hospital", "value": "hospital_name"},
+      {"name": "Phone Number of Doctor", "value": "doctor_number"},
+      {"name": "Phone Number for Hospital", "value": "hospital_number"}
+    ],
+    "auth": ["Sign up with Mobile Number", "Login with Mobile Number", "Verify OTP"],
+    "Emergency": [
+      {
+        "name": "Emergency Contact",
+        "fields": [
+          {"name": "Name", "value": "caregiver_name"},
+          {"name": "Contact Number", "value": "caregiver_number"},
+          {"name": "Relation to the Patient", "value": "relation_of_patient"}
+        ]
+      }
+    ],
+    "Instructions": "Do you want to talk to me about your treatment, or are you experiencing severe symptoms that need attention. Please type/ speak your questions in Hindi, English or Punjabi and I will try my best to answer your queries",
+    "Symptoms": [
+      "High Fever:100.4 above", "Chills", "Choking", "Difficulty in Breathing", "Severe Sudden Pain",
+      "Severe Persistent Pain", "Chest Pain", "Persistent Cough", "Bleeding", "Blood in Urine",
+      "Blood in Stool", "Other Bleeding", "Mouth sore bleeding", "Bruise/Red, Blue marks",
+      "Double/ Changed Vision", "Stomach Pain", "Severe Diarrhoea", "Severe Nausea",
+      "Severe Vomiting", "Severe Constipation", "Severe Stomach Cramps", "Cannot eat food",
+      "Severe Weakness", "Constant Tiredness", "Headaches", "Confusion", "Weakness",
+      "Fainting-Dizziness", "Change in Behaviour", "Yellow skin-eyes"
+    ]
+  },
+  {
+    "name": "hindi",
+    "index": 1,
+    "profile": [
+      {"name": "मरीज का नाम", "value": "patient_name"},
+      {"name": "यूआईडी/आभा आईडी", "value": "abha_id"},
+      {"name": "डॉ. का नाम", "value": "doctor_name"},
+      {"name": "अस्पताल का नाम", "value": "hospital_name"},
+      {"name": "डॉक्टर का फ़ोन नंबर", "value": "doctor_number"},
+      {"name": "अस्पताल का फ़ोन नंबर", "value": "hospital_number"}
+    ],
+    "auth": ["मोबाइल नंबर से साइन अप करें", "मोबाइल नंबर से लॉगिन करें", "ओटीपी सत्यापित करें"],
+    "Emergency": [
+      {
+        "name": "यदि परिवार का सदस्य",
+        "fields": [
+          {"name": "आपका नाम", "value": "caregiver_name"},
+          {"name": "आपका फ़ोन नंबर", "value": "caregiver_number"},
+          {"name": "रोगी से संबंध", "value": "relation_of_patient"}
+        ]
+      }
+    ],
+    "Instructions": "मैं Aica हूँ। मैं आपकी पर्सनल हेल्थ असिस्टेंट यानी की सहायक हूँ। मैं स्वस्थ्य रहने में और आपके उपचार के  दौरान आपकी मदद करूँगी। अगर आप मुझसे कोई प्रशन पूछना चाहे तो अपना प्रशन टाइप करें या फिर साफ़ शब्दों में बोलें। मैं आपको उत्तर लिख कर दूँगी  अगर आप कोई गम्भीर लक्षण अनुभव कर रहे हो तो नीचे लिखे लक्षण का चयन करें ताकी मैं आपकी सहायता कर सकूँ।",
+    "Symptoms": [
+      "तेज़ बुखार: 100.4 से ऊपर", "ठंड लगना", "दम घुटना", "साँस लेने में कठिनाई", "तेज अचानक दर्द",
+      "तेज़ लगातार दर्द", "सीने में दर्द", "लगातार खांसी", "खून बह रहा है", "मूत्र में रक्त आना",
+      "मल में खून आना", "किसी अन्य स्थान से रक्तस्राव", "मुंह में घाव से खून आना", "चोट/लाल, नीले निशान",
+      "दोहरी/परिवर्तित दृष्टि", "पेट दर्द", "बहुत अधिक दस्त", "बहुत अधिक मतली", "बहुत अधिक उल्टियाँ होना",
+      "बहुत अधिक कब्ज", "बहुत अधिक पेट में ऐंठन", "खाना नहीं खा सकते", "बहुत अधिक कमजोरी",
+      "बहुत अधिक लगातार थकान होना", "सिरदर्द", "भ्रम", "कमजोरी", "बेहोशी-चक्कर आना",
+      "व्यवहार में परिवर्तन", "पीली त्वचा-आँखें"
+    ]
+  },
+  {
+    "name": "punjabi",
+    "index": 2,
+    "profile": [
+      {"name": "ਮਰੀਜ਼ ਦਾ ਨਾਮ", "value": "patient_name"},
+      {"name": "ਯੂਆਈਡੀ/ਆਭਾ ਆਈਡੀ", "value": "abha_id"},
+      {"name": "ਡਾਕਟਰ ਦਾ ਨਾਮ", "value": "doctor_name"},
+      {"name": "ਹਸਪਤਾਲ ਦਾ ਨਾਮ", "value": "hospital_name"},
+      {"name": "ਡਾਕਟਰ ਦਾ ਫ਼ੋਨ ਨੰਬਰ", "value": "doctor_number"},
+      {"name": "ਹਸਪਤਾਲ ਦਾ ਫ਼ੋਨ ਨੰਬਰ", "value": "hospital_number"}
+    ],
+    "auth": ["ਮੋਬਾਈਲ ਨੰਬਰ ਨਾਲ ਸਾਈਨ ਅਪ ਕਰੋ", "ਮੋਬਾਈਲ ਨੰਬਰ ਨਾਲ ਲਾਗਿਨ ਕਰੋ", "ਓਟੀਪੀ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ"],
+    "Emergency": [
+      {
+        "name": "ਜੇਕਰ ਪਰਿਵਾਰ ਦਾ ਮੈਂਬਰ ਹੈ",
+        "fields": [
+          {"name": "ਤੁਹਾਡਾ ਨਾਮ", "value": "caregiver_name"},
+          {"name": "ਤੁਹਾਡਾ ਫ਼ੋਨ ਨੰਬਰ", "value": "caregiver_number"},
+          {"name": "ਮਰੀਜ਼ ਨਾਲ ਸੰਬੰਧ", "value": "relation_of_patient"}
+        ]
+      }
+    ],
+    "Instructions": "ਮੈਂ Aica ਹਾਂ। ਮੈਂ ਤੁਹਾਡੀ ਪर्सਨਲ ਹੈਲਥ ਅਸਿਸਟੈਂਟ ਹਾਂ। ਮੈਂ ਤੁਹਾਡੇ ਸਿਹਤਮੰਦ ਰਹਿਣ ਵਿੱਚ ਅਤੇ ਤੁਹਾਡੇ ਇਲਾਜ ਦੌਰਾਨ ਤੁਹਾਡੀ ਮਦਦ ਕਰਾਂਗੀ। ਜੇ ਤੁਸੀਂ ਮੈਨੂੰ ਕੋਈ ਸਵਾਲ ਪੁੱਛਣਾ ਚਾਹੁੰਦੇ ਹੋ, ਤਾਂ ਆਪਣੇ ਸਵਾਲ ਨੂੰ ਟਾਈਪ ਕਰੋ ਜਾਂ ਬੋਲੋ। ਮੈਂ ਤੁਹਾਨੂੰ ਲਿਖਤ ਜਵਾਬ ਦੇ ਦਾਂਗੀ। ਜੇ ਤੁਸੀਂ ਕੋਈ ਗੰਭੀਰ ਲੱਛਣ ਅਨੁਭਵ ਕਰ ਰਹੇ ਹੋ, ਤਾਂ ਹੇਠਾਂ ਦਿੱਤੇ ਲੱਛਣਾਂ ਵਿੱਚੋਂ ਚੁਣੋ ਤਾਂ ਜੋ ਮੈਂ ਤੁਹਾਡੀ ਸਹਾਇਤਾ ਕਰ ਸਕਾਂ।",
+    "Symptoms": [
+      "ਤੀਬਰ ਬੁਖਾਰ: 100.4 ਤੋਂ ਉੱਪਰ", "ਠੰਢ ਲੱਗਣਾ", "ਦਮ ਘੁਟਣਾ", "ਸਾਸ ਲੈਣ ਵਿੱਚ ਮੁਸ਼ਕਲ", "ਤੀਬਰ ਅਚਾਨਕ ਦਰਦ",
+      "ਤੀਬਰ ਲਗਾਤਾਰ ਦਰਦ", "ਸੀਨੇ ਵਿੱਚ ਦਰਦ", "ਲਗਾਤਾਰ ਖਾਂਸੀ", "ਖੂਨ ਬਹਿ ਰਿਹਾ ਹੈ", "ਯੂਰਿਨ ਵਿੱਚ ਖੂਨ ਆਣਾ",
+      "ਮਲ ਵਿੱਚ ਖੂਨ ਆਣਾ", "ਕਿਸੇ ਹੋਰ ਸਥਾਨ ਤੋਂ ਖੂਨ ਬਹਿਣਾ", "ਮੂੰਹ ਵਿੱਚ ਜ਼ਖ਼ਮ ਤੋਂ ਖੂਨ ਆਣਾ", "ਚੋਟ/ਲਾਲ, ਨੀਲੇ ਨਿਸ਼ਾਨ",
+      "ਦੋਹਰੀ/ਬਦਲੀ ਹੋਈ ਦ੍ਰਿਸ਼ਟੀ", "ਪੇਟ ਦਾ ਦਰਦ", "ਬਹੁਤ ਜ਼ਿਆਦਾ ਦਸਤ", "ਬਹੁਤ ਜ਼ਿਆਦਾ ਮਤਲੀ", "ਬਹੁਤ ਜ਼ਿਆਦਾ ਉਲਟੀਆਂ ਹੋਣਾ",
+      "ਬਹੁਤ ਜ਼ਿਆਦਾ ਕਬਜ਼", "ਬਹੁਤ ਜ਼ਿਆਦਾ ਪੇਟ ਵਿੱਚ ਕ੍ਰੈਂਪਿੰਗ", "ਖਾਣਾ ਨਹੀਂ ਖਾ ਸਕਦੇ", "ਬਹੁਤ ਜ਼ਿਆਦਾ ਕਮਜ਼ੋਰੀ",
+      "ਬਹੁਤ ਜ਼ਿਆਦਾ ਲਗਾਤਾਰ ਥਕਾਵਟ", "ਸਿਰਦਰਦ", "ਭ੍ਰਮ", "ਕਮਜ਼ੋਰੀ", "ਬੇਹੋਸ਼ੀ-ਚੱਕਰ ਆਉਣਾ",
+      "ਵਰਤਾਰ ਵਿੱਚ ਬਦਲਾਅ", "ਪੀਲੀ ਤਵਚਾ-ਆਖਾਂ"
+    ]
+  }
+]

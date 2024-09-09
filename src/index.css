@@ -1,13 +1,36 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+#root {
+    font-family: 'Poppins', sans-serif;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+.boxes_otp{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+  }
+  .input_otp{
+    background-color: #d9e7fd;
+    width: 50px;
+    aspect-ratio: 1/1;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .forgot_btn{
+    margin: 5px;
+    /* height: 50px; */
+  }
+  .timer{
+    margin: 20px 0px -10px;
+  }
+  .forgot_resend{
+    background: none;
+    /* color: rgba(255, 255, 255, 0.507); */
+    text-decoration: none;
+  
+  }
+  .forgot_resend:hover{
+    color: #d9e7fd;
+  }
